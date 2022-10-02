@@ -1,0 +1,104 @@
+div.relative {
+    position: relative;
+}
+
+#imagenBsAs {
+    filter: brightness(50%);
+}
+
+div.absolute {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: white;
+    text-align: end;
+    width: 40%;
+}
+
+@media only screen and (max-width : 992px) {
+    #menu {
+        text-align: start;
+    }
+    div.absolute {
+        position: absolute;
+        top: 30%;
+        right: 10%;
+        color: white;
+        text-align: end;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    div.absolute {
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        color: white;
+        text-align: end;
+        width: 70%;
+    }
+    #banner {
+            font-size:smaller;
+    }
+}
+
+@media only screen and (max-width : 576px) {
+    div.absolute {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        color: white;
+        text-align: end;
+        font-size:smaller;
+        width: 70%;
+    }
+
+    #banner {
+        font-size:smaller;
+    }
+}
+
+@media only screen and (max-width : 472px) {
+    div.absolute {
+        position: absolute;
+        top: 0;
+        right: 10%;
+        color: white;
+        text-align: end;
+        font-size:smaller;
+        width: 80%;
+    }
+
+    #banner {
+        font-size:smaller;
+    }
+}
+
+
+.bg-honolulu {
+    background-color: #353A40;
+    color: white;
+    font-size: 0.78rem;
+}
+
+#conoceMas {
+    font-size: 0.78rem;
+}
+
+
+.btn-colorapple {
+    background-color: #96C93E;
+    color: white;
+    border:  #729b2b;
+    font-size: 1.1rem;
+}
+
+
+footer {
+    background-color: #1C3844;
+}
+
+.nav-link {
+    text-align:center; 
+}
