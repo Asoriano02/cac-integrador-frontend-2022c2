@@ -107,6 +107,13 @@ div.absolute {
     color: grey;
 }
 
+#boxPagar {
+    background-color: #CCE5FF;
+    color: #28405a;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 footer {
     background-color: #1C3844;
 }
