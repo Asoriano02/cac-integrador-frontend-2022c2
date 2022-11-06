@@ -94,6 +94,18 @@ div.absolute {
     font-size: 1.1rem;
 }
 
+#boxDescuento {
+    box-sizing: border-box;
+}
+
+#descuento {
+    font-weight: bolder;
+}
+
+#documentacion {
+    font-size: 0.75em;
+    color: grey;
+}
 
 footer {
     background-color: #1C3844;
