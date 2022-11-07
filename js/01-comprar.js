@@ -7,15 +7,19 @@ let descEstudiante = 0.8;
 let descTrainee = 0.5;
 let descJunior = 0.15;
 
+
 function calcularYMostrarTotalAPagar(desc) {
-    totalAPagar = ((document.getElementById("inputCantidad").value)*valorEntrada)*(1-desc);
-    document.getElementById("boxTextPagar").innerHTML = "Total a pagar: $" + totalAPagar.toFixed(2);
+    const cantidad = document.getElementById("inputCantidad").value;
+    const mensaje = document.getElementById("boxTextPagar");
+    totalAPagar = (cantidad*valorEntrada)*(1-desc);
+    mensaje.innerHTML = "Total a pagar: $" + totalAPagar.toFixed(2);
 } 
 
 function mostrarTotal() {
-    if (document.getElementById("inputCategoria").value == "e") {
+    const categoria = document.getElementById("inputCategoria").value;
+    if (categoria == "e") {
         calcularYMostrarTotalAPagar(descEstudiante);
-    } else if (document.getElementById("inputCategoria").value =="t") {
+    } else if (categoria =="t") {
         calcularYMostrarTotalAPagar(descTrainee);
     } else {
         calcularYMostrarTotalAPagar(descJunior);
